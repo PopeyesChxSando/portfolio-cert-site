@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+ul.org-list, ul.subcategory-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.org-list li, ul.subcategory-list li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cert {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.cert h2 {
+    margin: 0 0 5px 0;
+}
+
+.cert a {
+    font-weight: bold;
+}
